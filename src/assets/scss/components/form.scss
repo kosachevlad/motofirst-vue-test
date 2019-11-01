@@ -1,0 +1,56 @@
+@import '../modules/variables.scss';
+.form{
+  padding-top: 30px;
+  .left{
+    .form__input-group:nth-child(2){
+      margin-top: 40px;
+    }
+  }
+  button{
+    background: $color-btn;
+    transition: box-shadow 0.2s ease;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 21px;
+    margin: 2em 0;
+    box-shadow: none;
+    outline: none;
+    &:hover{
+      box-shadow: 0px 0px 13px 0px $color-btn;
+    }
+  }
+}
+
+.form__input-group{
+  font-size: 21px;
+  label{
+    color: $text-color-light;
+    font-weight: 500;
+    span{
+      color: $color-btn;
+      font-size: 24px;
+    }
+  }
+  input, textarea{
+    width: 100%;
+    display: block;
+    border: 3px solid $border-color;
+    background: rgba(0,0,0,0);
+    border-radius: 7px;
+    transition: border-color 0.5s ease;
+    outline: none;
+    color: $text-color-light;
+    padding: 21px;
+    
+    &:focus{
+      border-color: $border-color-accent;
+    }
+  }
+  textarea{
+    height: 242px;
+    resize: none;
+  }
+}

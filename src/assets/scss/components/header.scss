@@ -1,0 +1,8 @@
+@import '../modules/variables.scss';
+.header{
+  background: $header-bg-color;
+  padding-top: 140px;  
+}
+.header__logo{
+  width: 190px;
+}

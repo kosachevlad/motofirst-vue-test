@@ -1,0 +1,10 @@
+@import '../modules/variables.scss';
+
+.footer{
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: $footer-bg-color;
+}

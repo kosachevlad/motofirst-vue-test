@@ -1,0 +1,23 @@
+.comment__window{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $color-white;
+  z-index: 9;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  p{
+    font-size: 20px;
+    text-align: center;
+  }
+}
+.comment__close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
